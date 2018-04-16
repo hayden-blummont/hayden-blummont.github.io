@@ -1,5 +1,5 @@
 body {
-    background: url(https://images.unsplash.com/photo-1454817481404-7e84c1b73b4a?ixlib=rb-0.3.5&s=3c94be63fa4b48f56ec815ec8df28732&auto=format&fit=crop&w=1868&q=80) no-repeat center center fixed; 
+    background: url(https://parablevisions.com/superstitiously-divine/#) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -14,14 +14,14 @@ div {
     text align: center;
 }
 p {
-    color: white;
+    color: black;
     text-align: center;
     text-shadow: 0.75px 0.75px fuchsia;
     font-size: 1.75em;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;  
 }
 h1 {
-    color: white;
+    color: black;
     text-shadow: 0.75px 0.75px fuchsia;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
