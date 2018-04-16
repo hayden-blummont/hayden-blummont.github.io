@@ -30,9 +30,28 @@ h2 {
     text-shadow: 0.75px 0.75px #00FF00;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
+h3 { 
+    color: fuchsia;
+    text-shadow: 0.75px 0.75px #00FF00;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
 ul {
     color: lime;
     text-shadow: 0.75px 0.75px fuchsia;
     font-size: 1.75em;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;   
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+th {
+    height: 40px;
 }
