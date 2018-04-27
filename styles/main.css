@@ -27,6 +27,11 @@ div {
     margin: 14px 0px;
 }
 
+.photos {
+    width: 100%;
+    height: 100%;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
