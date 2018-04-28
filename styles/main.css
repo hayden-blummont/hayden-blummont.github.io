@@ -46,21 +46,21 @@ div {
     text-align: center;
 }
 
-/* Add a black background color to the top navigation */
-.topnav {
-    background-color: #333;
-    overflow: hidden;
-}
-
 .to-top {
     text-align: center;
-    vertical-align: middle;
-    border: 1px;
+    border-style: solid;
+    border-color: black;
 }
 
 .by {
     text-align: right;
-    vertical-align: middle;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
