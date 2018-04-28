@@ -1,11 +1,68 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title></title>
-    <meta charset="UTF-8">
-    
-  </head>
-  <body>
-  
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Hayden Blummont</title>
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" rel="stylesheet">
+  <link href="../styles/main.css" rel="stylesheet" type="text/css">
+
+  <script>
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <section class="nav">
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">Home</a>
+      <a href="#technical blog">Technical Blog</a>
+      <a href="#cultural blog">Cultural Blog</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+  </section>
+
+  <div class="container">
+
+
+    <section class="header">
+      <div class="row">
+        <div class="twelve columns header-row">
+          <span class="header-text">Blog</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="blogs">
+      <div class="row">
+        <div class="six columns">
+          <h1><span class="blog-header"><!-- Heading --></span></h1>
+            <p>
+              <!-- blog text -->
+            </p>
+        </div>
+        <div class="six columns">
+          <h1><span class="blog-header"><!-- Heading --></span></h1>
+            <p>
+              <!-- blog text -->
+            </p>
+        </div>
+      </div>
+    </section>
+
+
+  </div>
+</body>
+
 </html>

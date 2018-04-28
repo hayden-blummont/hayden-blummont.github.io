@@ -53,11 +53,14 @@ div {
 }
 
 .to-top {
-    line-height: 10%
+    text-align: center;
+    vertical-align: middle;
+    border: 1px;
 }
 
 .by {
     text-align: right;
+    vertical-align: middle;
 }
 
 /* Style the links inside the navigation bar */
