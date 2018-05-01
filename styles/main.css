@@ -8,6 +8,14 @@ div {
     margin: 16px 0px;
 }
 
+.wireframe-pics {
+    width: 50%;
+    height: 50%;
+    margin: 10px;
+    transform: rotate(90deg);
+}
+
+
 .blog-header {
     text-align: center;
 }
@@ -17,6 +25,10 @@ div {
     vertical-align: middle;
     font-size: 3.5em;
     color: white;
+}
+
+.main-text {
+    padding: 10px 0px;
 }
 
 .photo-header-text {
@@ -34,6 +46,15 @@ div {
 .header {
     background-image: url("../images/placeimg_1000_100_animals.jpg");
     margin: 16px 0px;
+}
+
+.part-header {
+    vertical-align: middle;
+    text-align: center;
+    font-size: 2em;
+    color: black;
+    text-decoration: underline;
+    margin: 0px 0px 20px 0px;
 }
 
 .photos {
@@ -55,6 +76,15 @@ div {
 .by {
     text-align: right;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.table-header {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 1.5em;
+    color: black;
+    text-decoration: underline;
 }
 
 /* Add a black background color to the top navigation */
