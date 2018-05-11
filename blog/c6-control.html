@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog - Control</title>
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" rel="stylesheet">
+  <link href="../styles/main.css" rel="stylesheet" type="text/css">
+
+  <script>
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <section class="nav">
+    <div class="topnav" id="myTopnav">
+      <a href="#home">Home</a>
+      <a href="#technical blog">Technical Blog</a>
+      <a href="#cultural blog" class="active">Cultural Blog</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+  </section>
+
+  <div class="container">
+
+
+    <section class="header">
+      <div class="row">
+        <div class="twelve columns header-row">
+          <span class="header-text">Blog</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="blogs">
+      <div class="row">
+        <div class="twelve columns">
+          <header class="part-header">Cultural Blog Part 6</header>
+        </div>
+      </div>
+    </section>
+
+    <section class="blogs">
+      <div class="row">
+        <div class="six columns">
+          <h5>When programming, what are some of your triggers? What causes a disproportionate emotional response?</h5>
+          <p>
+            When I get blocked by something, sometimes I get unreasonably frustrated and grumpy about it, especially if I was on a good roll and know that the block has a super easy solution I just can't see. That said, I also get crazily excited and happy when things do go well and I feel productive which some would argue is also a disproportionate emotional response.
+          </p>
+        </div>
+    
+        <div class="six columns">
+          <h5>How did you find the Siberian North Railroad exercise (Stop, Breathe, Notice, Reflect, Respond)?</h5>
+          <p>
+            This exercise is one I don't really find terribly helpful. It might sound silly but there are just too many steps and it's impractical in a lot of stressful situations. I find it more useful to just focus on my breath and then think about the thing less formally. The mnemonic is honestly terrible too lol. I do a similar mindfulness meditation using an app called Pacifica and it helps me cool down pretty well, so I'll probably just stick with that.
+          </p>
+        </div>
+
+      </div>
+
+      <footer>
+        <div class="row">
+          <div class="four columns">
+            <p></p>
+          </div>
+          <div class="four columns">
+            <p></p>
+          </div>
+          <div class="four columns">
+            <p class="by">
+              By Hayden Blummont
+            </p>
+          </div>
+        </div>
+      </footer>
+  </div>
+
+</body>
+
+</html>
