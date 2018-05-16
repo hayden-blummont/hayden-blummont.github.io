@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog - JS Language</title>
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" rel="stylesheet">
+  <link href="../styles/main.css" rel="stylesheet" type="text/css">
+
+  <script>
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <section class="nav">
+    <div class="topnav" id="myTopnav">
+      <a href="#home">Home</a>
+      <a href="#technical blog" class="active">Technical Blog</a>
+      <a href="#cultural blog">Cultural Blog</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+  </section>
+
+  <div class="container">
+
+
+    <section class="header">
+      <div class="row">
+        <div class="twelve columns header-row">
+          <span class="header-text">Blog</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="blogs">
+      <div class="row">
+        <div class="twelve columns">
+          <header class="part-header">Technical Blog Part 6</header>
+        </div>
+      </div>
+    </section>
+
+    <section class="blogs">
+      <div class="row">
+        <div class="twelve columns">
+          <h5>In the JavaScript language, describe all the use cases for:</h5>
+          <p>
+            <strong>parentheses ()</strong> - These are used mostly group or contain expressions and parameters. When grouping expressions,
+            it tells the computer when to execute each part like in
+            <strong>x = (6 + 3) * 4;</strong>
+            </br>If the function has no parameters, the parentheses are left blank eg.
+            <strong>function example()</strong>
+            </br>
+            </br>
+            <strong>brackets []</strong> - Brackets are used mostly to wrap arrays (lists) or objects from within arrays that are
+            used in other statements.
+            </br>
+            </br>
+            <strong>braces {}</strong> - These are used to wrap statements that make up a function. They define the start and end
+            of a function. They can also be nested and separate blocks of code.
+            </br>
+            </br>
+            <strong>single quotes ''</strong> AAAAAAND <strong>double quotes ""</strong> - These are probably the trickiest to explain but for most purposes, these two are interchangeable and used to wrap things like strings and classes.</br>Double quotes are best for things that might need to contain a single quote inside or an apostrophe. It can be useful to use single quotes when you're going to need a double quote inside but there are other ways around this.
+          </p>
+        </div>
+
+      </div>
+
+      <footer>
+        <div class="row">
+          <div class="four columns">
+            <p></p>
+          </div>
+          <div class="four columns">
+            <p></p>
+          </div>
+          <div class="four columns">
+            <p class="by">
+              By Hayden Blummont
+            </p>
+          </div>
+        </div>
+      </footer>
+  </div>
+
+</body>
+
+</html>
